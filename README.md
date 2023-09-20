@@ -22,7 +22,8 @@ yarn add @severo-tech/injection-decorator
   "compilerOptions": {
     ...
     "target": "ES5", // minimum target
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
   ...
 }
