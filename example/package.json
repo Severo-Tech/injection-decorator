@@ -1,0 +1,19 @@
+{
+  "name": "ons-connector",
+  "version": "1.0.0",
+  "description": "Conexão com a API da ONS",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only --inspect=0.0.0.0:9229 src/index.ts"
+  },
+  "author": "Guilherme Severo",
+  "license": "ISC",
+  "dependencies": {
+    "@severo-tech/injection-decorator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
